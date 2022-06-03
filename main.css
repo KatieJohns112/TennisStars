@@ -22,15 +22,11 @@ header {
     color: white
 }
 
-li {
-    list-style-type: none;
-}
-
 .navlist {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    color: white;
+    list-style-type: none;
 }
 
 .tennisMain {
@@ -74,6 +70,7 @@ li {
 
 body {
     background-color: black;
+    color: white;
 }
 
 .logofooter {
@@ -88,4 +85,62 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: -1cm;
+}
+
+.frenchsection1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.frenchimg1 {
+    display: flex;
+    height: 500px;
+    width: 600px;
+    margin-left: 3cm;
+    margin-top: 1cm;
+    border: 1em;
+    border-color: white;
+    border-style: solid;
+}
+
+.frenchhistory {
+    display: flex;
+    justify-content: center;
+}
+
+.lifrenchhistory {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2em;
+}
+
+.frenchsection1 {
+    margin-top: 2cm;
+}
+
+.frenchfun {
+    display: flex;
+    font-size: 40px;
+}
+
+.ulfrench {
+    display: flex;
+    font-size: 2em;
+}
+
+.footersection {
+    display: flex;
+    margin-top: 2cm;
+}
+
+.nav a:link {
+    color: yellow
+}
+
+.nav a:active {
+    color: yellow
+}
+
+.nav a {
+    color: white;
 }
